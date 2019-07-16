@@ -1,0 +1,37 @@
+<!--pages/work/work.wxml-->
+<view class="container">
+
+  <text style="text-align: center;">点击可以查看详细信息</text>
+
+  <button class="return" bindtap='ToIndex'>返回</button>
+
+  <view class="special">
+    <text class="font" bindtap="ToSpecial">【 特等奖 】\n</text>
+    <text class="name" bindtap="ToSpecial">参观清华</text>
+  </view>
+
+  <view class="first">
+    <text class="font" bindtap="ToFirst">【 一等奖 】\n</text>
+    <text data-id="1" class="name" bindtap="ToFirst">双生小日记\n</text>
+    <text data-id="2" class="name" bindtap="ToFirst">校园二手物品交易\n</text>
+    <text data-id="3" class="name" bindtap="ToFirst">小世界步数旅行\n</text>
+  </view>
+
+  <view class="second">
+    <text class="font" bindtap="ToSecond">【 二等奖 】\n</text>
+    <text data-id="1" class="name" bindtap="ToSecond">听说无忧\n</text>
+    <text data-id="2" class="name" bindtap="ToSecond">数独大乱斗\n</text>
+    <text data-id="3" class="name" bindtap="ToSecond">护助汇评估\n</text>
+    <text data-id="4" class="name" bindtap="ToSecond">同游账本\n</text>
+    <text data-id="5" class="name" bindtap="ToSecond">连音符\n</text>
+    <text data-id="6" class="name" bindtap="ToSecond">网红打卡地\n</text>
+    <text data-id="7" class="name" bindtap="ToSecond">84号邮局\n</text>
+    <text data-id="8" class="name" bindtap="ToSecond">家长群管家\n</text>
+    <text data-id="9" class="name" bindtap="ToSecond">答题星\n</text>
+    <text data-id="10" class="name" bindtap="ToSecond">GS比赛计分\n</text>
+  </view>
+
+</view>
+
+
+    

@@ -1,0 +1,122 @@
+/**index.wxss**/
+page {
+  background: url('http://img.hb.aicdn.com/2f052b0a7291efa1e1979458e1247b954d95b4c0e6a79-UBquyc_fw658');
+  background-size: cover;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 10px;
+  position: fixed;
+  width: 110px;
+  height: 60px;
+  float: left;
+  top: 0px;
+  left: 0px;
+}
+
+.preview {
+  margin-top: 15px;
+  margin-right: 10px;
+  position: fixed;
+  float: right;
+  border-radius:50rpx;
+  right: 0px;
+  top: 0px;
+  width: 70px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 华文新魏;
+  background-color: #00ff00;
+}
+
+.first {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: 黑体;
+}
+
+.second {
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  font-family: 黑体;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 华文新魏;
+  background-color:#00ff00;
+}
+
+.title {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.text-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.button-list {
+  padding-top: 15px;
+  align-content: center;
+  text-align: center;
+}
+
+.button {
+  width: auto;
+  border-radius:50rpx;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.btn1 .btn3 {
+  float: left;
+}
+
+.btn2 .btn4 {
+  float: right;
+}
+
+.space {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line {
+  height: 100%;
+  width:100%;
+  display:flex;
+}
+
+.text {
+  color: blue;
+  font-weight: bold;
+  font-family: 楷体;
+  font-size: 30px;
+}
+
+.now {
+  background: url("http://img.besoo.com/file/201608/20/0723252745908.jpg");
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.before {
+  background: url("http://img.besoo.com/file/201608/20/0723252745908.jpg");
+  background-size: cover;
+  border-radius: 30px;
+}

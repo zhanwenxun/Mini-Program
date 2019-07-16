@@ -1,0 +1,16 @@
+<!--pages/preview/preview.wxml-->
+<view class="container">
+  <view class="top">
+    <text class="title">前言</text>
+    <button class="return" bindtap='ToIndex'>返回</button>
+  </view>
+  
+  <view class="text-area">
+    <view class="firstp">
+    <p>本次大赛由全国高等学校计算机教育研究会与腾讯公司微信事业群共同主办，由清华大学承办，基于腾讯微信小程序平台的创新应用开发设计竞赛。</p>
+    </view>
+    <view class="secondp">
+    <p>这次大赛给了年轻的开发者一把钥匙，让他们可以靠着自己的双手，打开新世界的大门。不仅仅是开发能力的新世界，还有职场事业的大门。</p>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/picture/picture.wxml-->
+<view class="container">
+
+  <view class="top">
+    <button class="return" bindtap='ToIndex'>返回</button>
+  </view>
+
+  <view class="image-list">
+    <text class="font">决赛训练营\n</text>
+    <image mode="widthFix" src='{{img8}}'></image>
+    <image mode="widthFix" src='{{img9}}'></image>
+    <image mode="widthFix" src='{{img10}}'></image>
+  </view>
+
+  <view class="image-list">
+    <text class="font">总决赛\n</text>
+    <image mode="widthFix" src='{{img11}}'></image>
+    <image mode="widthFix" src='{{img12}}'></image>
+  </view>
+
+  <view class="image-list">
+    <text class="font">决赛获奖\n</text>
+    <image mode="widthFix" src='{{img1}}'></image>
+    <image mode="widthFix" src='{{img2}}'></image>
+    <image mode="widthFix" src='{{img3}}'></image>
+    <image mode="widthFix" src='{{img4}}'></image>
+    <image mode="widthFix" src='{{img5}}'></image>
+    <image mode="widthFix" src='{{img6}}'></image>
+    <image mode="widthFix" src='{{img7}}'></image>
+  </view>
+</view>

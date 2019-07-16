@@ -1,0 +1,58 @@
+/* pages/effect/effect.wxss */
+page {
+  background: url('http://img.hb.aicdn.com/2f052b0a7291efa1e1979458e1247b954d95b4c0e6a79-UBquyc_fw658');
+  background-size: cover;
+}
+
+.return {
+  position: fixed;
+  float: right;
+  top: 0px;
+  border-radius:50rpx;
+  right: 0px;
+  width: 70px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 华文新魏;
+  background-color:#00ff00;
+}
+
+text {
+  color: white;
+  font-size: 15px;
+}
+
+.textarea {
+  margin-top: 45px;
+}
+
+.part {
+  margin-top: 28px;
+  margin-bottom: 25px;
+}
+
+.title {
+  text-align: center;
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: red;
+  justify-content: center;
+  margin-bottom: 23px;
+  margin-top: 10px;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+

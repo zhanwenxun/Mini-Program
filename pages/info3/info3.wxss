@@ -1,0 +1,72 @@
+/* pages/info3/info3.wxss */
+/* pages/moreInfo/moreInfo.wxss */
+page {
+  background: url('http://img.hb.aicdn.com/2f052b0a7291efa1e1979458e1247b954d95b4c0e6a79-UBquyc_fw658');
+  background-size: cover;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.return {
+  position: fixed;
+  float: right;
+  top: 0px;
+  border-radius:50rpx;
+  right: 0px;
+  width: 70px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 华文新魏;
+  background-color:#00ff00;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 23px;
+  margin-top: 20px;
+  font-family: 楷体;
+  font-weight: bold;
+}
+
+text {
+  color: white;
+  font-size: 15px;
+}
+
+ul li {
+  color: white;
+  font-size: 15px;
+}
+
+.part {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: 黑体;
+}
+
+.space {
+  margin-top:  4px;
+}
+
+.paragraph {
+  text-indent: 80rpx;
+}
+
+p {
+  color: white;
+}

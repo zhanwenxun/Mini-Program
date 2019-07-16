@@ -1,0 +1,46 @@
+/* pages/picture/picture.wxss */
+page {
+  background: url('http://img.hb.aicdn.com/2f052b0a7291efa1e1979458e1247b954d95b4c0e6a79-UBquyc_fw658');
+  background-size: cover;
+}
+
+.top {
+  margin-bottom: 10px;
+}
+
+.font {
+  text-align: center;
+  font-size: 30px;
+  font-family: 楷体;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+image {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.return {
+  position: fixed;
+  float: right;
+  top: 0px;
+  border-radius:50rpx;
+  right: 0px;
+  width: 70px;
+  height: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 华文新魏;
+  background-color:#00ff00;
+  text-align: center;
+}

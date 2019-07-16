@@ -1,0 +1,23 @@
+<!--pages/info3/info3.wxml-->
+<view class="container">
+<button class="return" bindtap='ToMoreInfo'>返回</button>
+  <view class="textarea">
+
+  <view class="part">
+      <text class="title">奖项设置\n</text>
+      <view class="paragraph">
+        <p>总决赛设立一、二、三等奖，如有表现特别优秀的队伍，大赛组委会可设立一名特等奖。按照决赛成绩，入围决赛参赛队伍的指导教师获得优秀指导教师奖，另外大赛组委会还将评选10所高校获得优秀组织奖。总决赛奖金池为45万元人民币，所有奖金均为税前金额，具体如下：</p>
+      </view>
+        <view class="space"></view>
+
+      <view class="paragraphs">
+        <text space='nbsp'>      特等奖 1 团队 证书，奖金100000元 \n</text>
+        <text space='nbsp'>      一等奖 3 团队 证书，奖金30000元 \n</text>
+        <text space='nbsp'>      二等奖 10 团队 证书，奖金10000元 \n</text>
+        <text space='nbsp'>      三等奖 16 团队 证书，奖金5000元 \n</text>
+        <text space='nbsp'>      优秀指导教师奖 30 个人 证书，奖金1000元 \n</text>
+        <text space='nbsp'>      优秀组织奖 10 学校 证书，奖金5000元 \n</text>
+      </view>
+    </view>
+  </view>
+</view>

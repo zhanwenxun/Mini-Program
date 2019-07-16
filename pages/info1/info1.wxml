@@ -1,0 +1,19 @@
+<!--pages/info1/info1.wxml-->
+<view class="container">
+  <button class="return" bindtap='ToMoreInfo'>返回</button>
+  <view class="textarea">
+
+    <view class="part">
+      <text class="title">参赛作品要求\n</text>
+      <view class="space"></view>
+      <text class="bold">1、介绍文档：</text>
+      <text>综合描述作品和团队情况，内容应包括但不限于小程序说明、应用场景、解决的实际问题、技术开发方案、团队组成与分工等，压缩包在10M以内。\n</text>
+      <view class="space"></view>
+      <text class="bold">2. 演示视频：</text>
+      <text>演示参赛作品的主要使用流程，3分钟内，上传腾讯视频后提供视频链接。\n</text>
+      <view class="space"></view>
+      <text class="bold">3.小程序appid：</text>
+      <text>在整个比赛过程中，参赛队伍可以随时对参赛作品进行完善，但不能更改作品主题和内容。在每个阶段，参赛作品以阶段提交截止日期前提交的最后版本为准。\n</text>
+    </view>
+  </view>
+</view>

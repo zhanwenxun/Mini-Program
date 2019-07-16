@@ -1,0 +1,102 @@
+<!--pages/first/first.wxml-->
+<view class="container">
+
+  <button class="return" bindtap='ToWork'>返回</button>
+
+    <view class="first" >  
+    <block wx:for="{{listData}}" wx:key="{[name]}" wx:if="{{index==0}}">
+      <view class="name">
+        <text class="workname">
+          <text class="gray">●</text>  {{item.name}}<text class="gray">●</text>
+        </text>
+      </view>
+      <view class="imagearea">
+        <image class="image" style="display:flex; " bindtap="previewImage" mode="widthFix" src='{{url1}}' data-src='{{url1}}'></image>
+      </view>
+      <text style="font-size: 14px; display: flex; justify-content: center;text-align: center">（长按预览图片可识别二维码）</text>
+      <view class="textarea">
+        <text class="left">简介\n</text>
+        <view class="smallspace"></view>
+        <p class="introduce"><text space="true" class="para"> {{item.introduce}} </text></p>
+        <view class="line"></view>
+        <view class="school">
+          <image class="icon" src="../images/school.png"></image>
+          <text class="text"> {{item.school }} </text>
+        </view>
+        <view class="band">
+          <image class="icon" src="../images/band.png"></image>
+          <text class="text"> {{item.band}} </text>
+        </view>
+        <view class="member">
+          <image class="icon" src="../images/member.png"></image>
+          <text class="text"> {{item.member}} </text>
+        </view>
+      </view>
+    </block>
+
+    <view class="workline"></view>
+
+    <block wx:for="{{listData}}" wx:key="{[name]}" wx:if="{{index==1}}">
+      <view class="name">
+        <text class="workname">
+          <text class="gray">●</text>  {{item.name}}<text class="gray">●</text>
+        </text>
+      </view>
+      <view class="imagearea">
+        <image class="image" style="display:flex; " bindtap="previewImage" mode="widthFix" src='{{url2}}' data-src='{{url2}}'></image>
+      </view>
+      <text style="font-size: 14px; display: flex; justify-content: center;text-align: center">（长按预览图片可识别二维码）</text>
+      <view class="textarea">
+        <text class="left">简介\n</text>
+        <view class="smallspace"></view>
+        <p class="introduce"><text space="true" class="para"> {{item.introduce}} </text></p>
+        <view class="line"></view>
+        <view class="school">
+          <image class="icon" src="../images/school.png"></image>
+          <text class="text"> {{item.school }} </text>
+        </view>
+        <view class="band">
+          <image class="icon" src="../images/band.png"></image>
+          <text class="text"> {{item.band}} </text>
+        </view>
+        <view class="member">
+          <image class="icon" src="../images/member.png"></image>
+          <text class="text"> {{item.member}} </text>
+        </view>
+      </view>
+    </block>
+
+    <view class="workline"></view>
+
+    <block wx:for="{{listData}}" wx:key="{[name]}" wx:if="{{index==2}}">
+      <view class="name">
+        <text class="workname">
+          <text class="gray">●</text>  {{item.name}}<text class="gray">●</text>
+        </text>
+      </view>
+      <view class="imagearea">
+        <image class="image" style="display:flex; " bindtap="previewImage" mode="widthFix" src='{{url3}}' data-src='{{url3}}'></image>
+      </view>
+      <text style="font-size: 14px; display: flex; justify-content: center;text-align: center">（长按预览图片可识别二维码）</text>
+      <view class="textarea">
+        <text class="left">简介\n</text>
+        <view class="smallspace"></view>
+        <p class="introduce"><text space="true" class="para"> {{item.introduce}} </text></p>
+        <view class='bulk'></view>
+        <view class="line"></view>
+        <view class="school">
+          <image class="icon" src="../images/school.png"></image>
+          <text class="text"> {{item.school }} </text>
+        </view>
+        <view class="band">
+          <image class="icon" src="../images/band.png"></image>
+          <text class="text"> {{item.band}} </text>
+        </view>
+        <view class="member">
+          <image class="icon" src="../images/member.png"></image>
+          <text class="text"> {{item.member}} </text>
+        </view>
+      </view>
+    </block>
+    </view>
+</view>

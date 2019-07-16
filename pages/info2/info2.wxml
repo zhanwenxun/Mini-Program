@@ -1,0 +1,22 @@
+<!--pages/info2/info2.wxml-->
+<view class="container">
+<button class="return" bindtap='ToMoreInfo'>返回</button>
+  <view class="textarea">
+
+  <view class="part">
+      <text class="title">赛制说明\n</text>
+      <view class="space"></view>
+      <text class="bold">1.组队与测试：\n</text>
+      <text>参赛选手可以通过大赛组委会提供的官方学习平台，学习微信小程序开发和设计技术。参赛选手需根据规则组队，通过在线测试并完成组队后，获得参赛资格。\n在此期间，大赛组委会将在各赛区组织宣讲活动，由腾讯微信团队进行小程序技术介绍和案例分享，拓展学生对微信小程序的认识。\n</text>
+      <view class="space"></view>
+      <text class="bold">2.作品提交：\n</text>
+      <text>各参赛队伍根据参赛作品要求，设计和开发小程序作品，并在官网提交参赛作品。\n</text>
+      <view class="space"></view>
+      <text class="bold">3.赛区选拔赛：\n</text>
+      <text>本次大赛设立8个赛区，包括7个中国境内赛区（不包括香港、澳门及台湾地区）和1个境外赛区。根据大赛组委会发布的各大赛区范围，参赛作品由各赛区组织委员会（简称“赛区组委会”）组织专家通过线上初审和现场评审，确定各赛区的参赛队伍排名和奖项，评审标准按照大赛组委会制定的统一标准执行。\n</text>
+      <view class="space"></view>
+      <text class="bold">4.全国总决赛：\n</text>
+      <text>大赛组委会最终确定并公示所有参加全国总决赛的参赛队伍，入围总决赛资格的团队将在广州参加大赛组委会组织的训练营。腾讯微信将组织专业讲师团对参加总决赛的选手进行培训，帮助参赛选手进一步完善作品。\n训练营结束后，大赛组委会将组织总决赛的现场答辩和作品演示，由决赛评审专家按照大赛评审标准进行评审，最终确定决赛队伍的排名和奖项。</text>
+    </view>
+  </view>
+</view>

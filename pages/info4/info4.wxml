@@ -1,0 +1,37 @@
+<!--pages/info4/info4.wxml-->
+<view class="container">
+  <button class="return" bindtap='ToMoreInfo'>返回</button>
+  <view class="textarea">
+
+    <view class="part">
+      <text class="title">评分标准\n</text>
+        <view class="space"></view>
+        <text class="bold">【定位：35分】\n</text>
+
+          <text>需求明确：产品具有明确需要解决的现实问题，并具有明确的目标用户和使用场景；\n</text>
+          <text>概念创新：在产品形态或对传统产品形态的互联网化改造方面有所创新等；\n</text>
+          <text>贴近实际：为用户生活带来便利或具有商业价值。\n</text>
+     
+        <view class="space"></view>
+        <text class="bold">【产品：35分】\n</text>
+       
+          <text>使用体验：流程逻辑清晰，用户易懂易用，用户体验出色；\n</text>
+          <text>设计美观：UI设计规范统一、美观精致；\n</text>
+          <text>运营规范：具有系统化和合适的运营方案，不存在过度营销现象（包括但不限于小程序就是广告平台，小程序涉及红包骚扰、诱导分享等）。\n</text>
+        
+        <view class="space"></view>
+        <text class="bold">【技术：20分】\n</text>
+        
+          <text>合理性：结合产品特点运用合适的技术解决问题；\n</text>
+          <text>可靠性：充分考虑各种边界条件，具有良好的可靠性；\n</text>
+          <text>性能：产品性能符合实际需求，并且能够提供有说服力的测试数据。\n</text>
+     
+        <view class="space"></view>
+        <text class="bold">【文档：10分】\n</text>
+       
+          <text>资料齐全：定位说明、产品描述、技术方案、应用前景分析等详细完整；\n</text>
+          <text>资料质量：资料格式规整\n</text>
+          
+    </view>
+  </view>
+</view>

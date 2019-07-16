@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">
+    <image class="logo" src="https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/dNEBuK6.png"></image>
+    <button class="preview" bindtap='ToPreview'>前言</button>
+  </view>
+
+  <view class="space"></view>
+  <view class="space"></view>
+  <view class="space"></view>
+
+  <view class="text-area">
+    <view><p class="first">中国高校计算机大赛</p></view>
+    <view><p class="second">——微信小程序应用开发赛</p></view>
+  </view>
+
+  <view class="content">
+    <view class="now">
+      <view class="text-area">
+        <text class="text">展望2019年\n</text>
+        <button class="button" bindtap="MakeRequest"> 进入开发者网页 </button>
+        <view>
+          <loading hidden="{{hidden}}">PDF文件过大，请耐心等待...</loading>
+          <button class="button" bindtap="download" style="color: red">打开2019年大赛通知</button>
+          </view>
+      </view>
+    </view>
+
+    <view class="space"></view>
+
+    <view class="before">
+      <view class="button-list">
+        <text class="text">回首2018年</text>
+        <view class="line">
+          <button class="btn1 button" bindtap='ToPicture'>精彩瞬间</button>
+          <button class="btn2 button" bindtap='ToWork'>获奖作品</button>
+        </view>
+
+        <view class="line">
+          <button class="btn3 button" bindtap='ToEffect'>教育影响</button>
+          <button class="btn4 button" bindtap='ToMoreInfo'>比赛详情</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
